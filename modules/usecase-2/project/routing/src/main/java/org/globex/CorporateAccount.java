@@ -9,8 +9,6 @@ public class CorporateAccount {
 
     private Company company;
     private Contact contact;
-    private int id;
-    private String salesContact;
 
     public Company getCompany() {
         return company;
@@ -26,22 +24,6 @@ public class CorporateAccount {
 
     public void setContact(Contact contact) {
         this.contact = contact;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getSalesContact() {
-        return salesContact;
-    }
-
-    public void setSalesContact(String salesContact) {
-        this.salesContact = salesContact;
     }
 
 }
