@@ -1,30 +1,16 @@
 package org.acme;
 
-import org.apache.camel.dataformat.bindy.annotation.CsvRecord;
-import org.apache.camel.dataformat.bindy.annotation.DataField;
-
-@CsvRecord(separator = ",")
 public class Customer {
 
-    @DataField(pos = 1)
     private String companyName;
-    @DataField(pos = 2)
     private String region;
-    @DataField(pos = 3)
     private boolean active;
-    @DataField(pos = 4)
     private String firstName;
-    @DataField(pos = 5)
     private String lastName;
-    @DataField(pos = 6)
     private String streetAddr;
-    @DataField(pos = 7)
     private String city;
-    @DataField(pos = 8)
     private String state;
-    @DataField(pos = 9)
     private String zip;
-    @DataField(pos = 10)
     private String phone;
 
     public String getCompanyName() {
